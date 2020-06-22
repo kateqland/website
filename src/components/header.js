@@ -35,7 +35,7 @@ function header() {
                 </div>
                 <div className="hdivisor"></div>
     
-                <div className="htab"> 
+                <div className="htab" id="hphotography"> 
                     <Link to="/Photography" class="link">
                         <h3><FontAwesomeIcon icon={faCamera}/> Photography</h3>
                     </Link>

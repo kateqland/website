@@ -16,7 +16,7 @@
     }
     100% {
         background-position: 0 100%;
-        transform: translateX(97vw);
+        transform: translateX(100vw);
     }
 }
 
@@ -26,15 +26,10 @@
 
 .catanim {
     height: 42px;
-    width: 10%;
+    width: 90px;
     background: url(../images/cat_walking.png) 0 0 no-repeat;
     animation: walking steps(11)  infinite 10s;
     z-index: -5;
-}
-
-#second {
-    background: url(../images/cat_walking.png) 0 0 no-repeat;
-    animation: walking_second steps(11)  infinite 10s;
 }
 
 .socialbar {
@@ -49,4 +44,140 @@
     font-size: 32px;
     text-decoration: none;
     color: #F2A490;
+}
+
+@media screen and (max-width: 1156px) {
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(99vw);
+        }
+    }
+}
+@media screen and (max-width: 1050px) {
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(98vw);
+        }
+    }
+}
+@media screen and (max-width: 966px) {
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(97vw);
+        }
+    }
+}
+@media screen and (max-width: 888px) {
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(95vw);
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(93vw);
+        }
+    }
+    .socialbar {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 680px) {
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(91vw);
+        }
+    }
+    .socialbar {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 611px) {
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(88vw);
+        }
+    }
+    .socialbar {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 530px) {
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(85vw);
+        }
+    }
+    .socialbar {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .socialbar {
+        width: 25%;
+    }
+
+    @keyframes walking{
+        0% {
+            background-position: 0 0;
+            transform: translateX(0%);
+        }
+        100% {
+            background-position: 0 100%;
+            transform: translateX(80vw);
+        }
+    }
+    .socialbar {
+        width: 30%;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .footerbody {
+        height: 128px;
+    }
 }

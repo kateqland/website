@@ -44,7 +44,7 @@
 }
 
 .bioimage img {
-  width: 150px;
+  width: 130px;
   padding: 8px;
   border: 1px solid white;
 }
@@ -57,7 +57,7 @@
   width: 70%;
   height: 100%;
   color: #ffffff;
-  border-radius: 10%; 
+  border-radius: 16px; 
   position: relative;
   font-size: 20px;
 }
@@ -70,7 +70,7 @@
   height: 30%;
   background-color: #f2a490;
   border: 1px solid white;
-  border-radius: 10%; 
+  border-radius: 16px; 
   padding: 0px 32px;
 }
 
@@ -79,7 +79,7 @@
   height: 50%;
   background-color: #f2a490;
   border: 1px solid white;
-  border-radius: 10%; 
+  border-radius: 16px; 
   padding: 0px 32px;
   display: flex;
   align-items: center;
@@ -130,21 +130,90 @@
   font-size: 18px;
 }
 
-.gallery img {
-  padding: 8px;
-  width: 60%;
-  border-radius: 50%;
-}
-
 .photo {
-  width: 25%;
+  width: 30%;
   height: 100%;
-}
-
-.gallery {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
+  padding: 0px 32px;
+}
+
+.photo img {
+  padding: 8px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .bioimage img {
+    width: 120px; 
+  }
+
+  .Introduction {
+    font-size: 14px;
+    width: 50%;
+    height: 80%;
+  }
+
+  .photo img{
+    width: 130px;
+  }
+
+  .inside {
+    font-size: 10px;
+    height: 20%;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bioimage img {
+    width: 100px; 
+  }
+
+  .Introduction {
+    width: 50%;
+    height: 70%;
+    font-size: 11px;
+  }
+
+  .inside {
+    padding: 16px;
+    font-size: 8px;
+    height: 10%;
+  }
+
+  .inside1 {
+    padding: 16px;
+    height: 30%;
+  }
+
+  .photo img{
+    width: 90px;
+  }
+
+  .description {
+    font-size: 12px;
+    height: 80%;
+  }
+
+  .photo {
+    height: 60%;
+  }
+
+  .category {
+    padding-bottom: 16px; 
+    padding-top: 0px;
+  }
+
+  .flex {
+    padding: 0px;
+  }
+
+  #categories {
+    padding: 0px;
+  }
 }

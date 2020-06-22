@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 8px;
+    font-size: 18px;
 }
 
 .hdivisor {
@@ -35,6 +36,11 @@
     width: 15%;
     text-align: center;
     padding: 0px 8px;
+    font-size: 18px;
+}
+
+#hphotography {
+    width: 20%;
 }
 
 .link {
@@ -61,6 +67,7 @@
     padding: 8px 32px;
     justify-content: space-evenly;
     border-top: #de5b6d solid;
+    align-items: center;
 }
 
 .circle {
@@ -72,4 +79,60 @@
 
 #colorme {
     background-color: #E9765B;
+}
+
+@media screen and (max-width: 768px) {
+    .htab {
+        width: 20%; 
+        font-size: 16px;
+    }
+
+    .name {
+        width: 20%;
+        font-size: 16px;
+    }
+
+    #hphotography {
+        width: 30%;
+    }
+    
+    .dotbar {
+        height: 3vh;
+    }
+
+    .circle {
+        width: 10px;
+        height: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .htab {
+        width: 30%; 
+    }
+    
+    .tabs {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    #hphotography {
+        width: 35%;
+    }
+    
+    .dotbar {
+        height: 1vh;
+    }
+    
+    .circle {
+        width: 5px;
+        height: 5px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .hdivisor {
+        height: 50%;
+    }
 }

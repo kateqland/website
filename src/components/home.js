@@ -32,9 +32,7 @@ function Home() {
         <div className="divisor"></div>
         <div className="category" id="art">
           <div className="photo">
-            <div className="gallery">
-              <img src={art}></img>
-            </div>
+            <img src={art}></img>
           </div>
           <div className="description">
             <h3>Art</h3>
@@ -53,17 +51,13 @@ function Home() {
             </p>
           </div>
           <div className="photo">
-            <div className="gallery">
-              <img src={projects}/>
-            </div>
+            <img src={projects}/>
           </div>
         </div> 
         <div className="divisor"></div>
         <div className="category" id="photography">
           <div className="photo">
-            <div className="gallery">
-              <img src={photography}></img>
-            </div>
+            <img src={photography}></img>
           </div>
           <div className="description">
           <h3>Photography</h3>
