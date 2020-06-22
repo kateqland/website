@@ -13,6 +13,7 @@ function research() {
             <div className = "circle"></div>
         </div>
 
+
       </div>
     );
 }
