@@ -1,0 +1,150 @@
+
+
+.flex {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #478ba2;
+  padding: 16px 16px;
+  align-items: center;
+  justify-content: space-evenly ;
+}
+
+@keyframes slidedown{
+  from {
+    transform: translateY(30%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(80%);
+    z-index: 1; 
+    opacity: 100%;
+  }
+}
+
+@keyframes stay {
+  from {
+    transform: translateY(80%);
+    z-index: 1; 
+    opacity: 100%;
+  }
+  to {
+    transform: translateY(80%);
+    z-index: 1; 
+    opacity: 100%;
+  }
+}
+
+.bioimage {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bioimage img {
+  width: 150px;
+  padding: 8px;
+  border: 1px solid white;
+}
+
+.Introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 100%;
+  color: #ffffff;
+  border-radius: 10%; 
+  position: relative;
+  font-size: 20px;
+}
+
+.inside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 30%;
+  background-color: #f2a490;
+  border: 1px solid white;
+  border-radius: 10%; 
+  padding: 0px 32px;
+}
+
+.inside1 {
+  width: 80%;
+  height: 50%;
+  background-color: #f2a490;
+  border: 1px solid white;
+  border-radius: 10%; 
+  padding: 0px 32px;
+  display: flex;
+  align-items: center;
+}
+
+.insidebio {
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 10%; 
+}
+
+.biophoto {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#categories {
+  height: 100vh;
+  background-color: #b9d4db;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.divisor {
+  width: 90%;
+  height: 2%;
+  border-top: 2px solid white;
+}
+
+.category {
+  height:50%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.description {
+  text-align: left;
+  width: 70%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.gallery img {
+  padding: 8px;
+  width: 60%;
+  border-radius: 50%;
+}
+
+.photo {
+  width: 25%;
+  height: 100%;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}

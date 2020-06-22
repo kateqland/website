@@ -1,0 +1,75 @@
+.headerbody {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+.name {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.hdivisor {
+    width: 1%;
+    height: 70%;
+    border-left: 1px solid #de5b6d;
+}
+
+.tabs {
+    width: 89%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.htab {
+    width: 15%;
+    text-align: center;
+    padding: 0px 8px;
+}
+
+.link {
+    color: #F2A490;
+    text-decoration: none;
+}
+.link:hover {
+    color: #DE5B6D;
+}
+
+.iconLink {
+    text-decoration: none;
+    color: #f5947c;
+}
+.iconLink:hover {
+    color: #DE5B6D;
+}
+
+/*part of "header for the tabs"*/
+.dotbar {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 32px;
+    justify-content: space-evenly;
+    border-top: #de5b6d solid;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid  #E9765B;
+}
+
+#colorme {
+    background-color: #E9765B;
+}

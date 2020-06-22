@@ -1,0 +1,29 @@
+.photobody {
+    height: auto;
+    background-color: #de5b6d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.title {
+    font-size: 45px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.album_container {
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.picture {
+    height: 300px; 
+    padding: 8px;
+}
