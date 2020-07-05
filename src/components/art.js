@@ -1,8 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/art.css';
-import FontAwesome from 'react-fontawesome';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 function research() {
     return (
@@ -13,7 +10,9 @@ function research() {
             <div className = "circle"></div>
         </div>
 
-
+        <div className="art_body">
+            <p className="title">Art</p>
+        </div>
       </div>
     );
 }

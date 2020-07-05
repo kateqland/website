@@ -206,14 +206,18 @@
 
   .category {
     padding-bottom: 16px; 
-    padding-top: 0px;
+    flex-direction: column;
   }
 
   .flex {
     padding: 0px;
   }
 
+  #projects {
+    flex-direction: column-reverse;
+  }
+
   #categories {
-    padding: 0px;
+    height: auto;
   }
 }

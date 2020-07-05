@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/photography.css';
 import beach_walk from '../images/photography/beach_walk.jpg';
 import blue_lake from '../images/photography/blue_lake.jpg';

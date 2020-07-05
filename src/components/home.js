@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/home.css';
 import cat from '../images/kitty_blep.jpg';
 import projects from '../images/hello_world.png';
@@ -46,8 +45,7 @@ function Home() {
           <div className="description">
             <h3>Projects</h3>
             <p> 
-              Not only do I code during my classes, but I also tinker around with code outside class.
-              Here are some of my projects that I have created.
+              Not only do I code during my classes, but I also tinker around with code outside class. Here are some of my projects that I have created.
             </p>
           </div>
           <div className="photo">
@@ -61,7 +59,9 @@ function Home() {
           </div>
           <div className="description">
           <h3>Photography</h3>
-          <p>I love admiring the scenery around me. Here are some shots that I have taken while traveling around.</p>
+          <p>
+            I love admiring the scenery around me. Here are some shots that I have taken with a phone camera while traveling around.
+          </p>
         </div>
         </div> 
       </div>

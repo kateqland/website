@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/projects.css';
 import pothole from '../images/projects/pixil-frame-0.png';
 import pothole_1 from '../images/projects/pothole(1).png';
@@ -29,7 +28,8 @@ function projects() {
                     <div className="project_description">
                         <p>Developed an IOS app that tracked all user's input about potholes. User can use Apple Maps to pinpoint the pothole; 
                             if there is already a review, user can rate and submit another recording of that same pothole. Using a formula based on the serverity of the pothole
-                            and amount of ratings, an email and call will be placed to get the roads fixed.</p>
+                            and amount of ratings, an email and call will be placed to get the roads fixed.
+                        </p>
                     </div>
                 </div>
                 <div className="project_images">
