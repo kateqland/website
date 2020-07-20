@@ -27,3 +27,9 @@
     height: 300px; 
     padding: 8px;
 }
+
+@media screen and (max-width: 480px) {
+    .picture {
+        width: 200px;
+    }
+}

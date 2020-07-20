@@ -4,3 +4,11 @@
     display: flex;
     flex-direction: column;
 }
+
+.art_container {
+    background-color: white;
+}
+
+.art_container h1 {
+    font-size: 26;
+}
