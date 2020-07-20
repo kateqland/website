@@ -36,7 +36,7 @@ function Home() {
           <div className="description">
             <h3>Art</h3>
             <p>
-              I like to doodle and am recently trying to get into digital art. These are some of the pieces that I have made.
+              I like to draw and am recently trying to get into digital art. These are some of the pieces that I have made.
             </p>
           </div>
         </div>
