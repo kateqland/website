@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   background-color: #478ba2;
-  padding: 16px 16px;
+  padding: 16px 64px;
   align-items: center;
   justify-content: space-evenly ;
 }
@@ -41,12 +41,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0px 32px;
 }
 
 .bioimage img {
-  width: 130px;
-  padding: 8px;
-  border: 1px solid white;
+  width: 250px;
+  border: 2px solid white;
+  border-radius: 50%; 
 }
 
 .Introduction {
@@ -62,42 +63,23 @@
   font-size: 20px;
 }
 
-.inside {
+.intro-top {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 80%;
   height: 30%;
-  background-color: #f2a490;
-  border: 1px solid white;
   border-radius: 16px; 
   padding: 0px 32px;
 }
 
-.inside1 {
+.intro-bottom {
   width: 80%;
-  height: 50%;
-  background-color: #f2a490;
-  border: 1px solid white;
+  height: 30%;
   border-radius: 16px; 
   padding: 0px 32px;
   display: flex;
   align-items: center;
-}
-
-.insidebio {
-  width: 100%;
-  height: 100%;
-  border: 1px solid white;
-  border-radius: 10%; 
-}
-
-.biophoto {
-  height: 100%;
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #categories {
@@ -123,8 +105,11 @@
   padding: 16px;
 }
 
-.description {
+.category-description {
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: 70%;
   height: 100%;
   font-size: 18px;
@@ -136,7 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0px 32px;
+  padding-right: 32px;
 }
 
 .photo img {
@@ -145,72 +130,52 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
   .bioimage img {
-    width: 120px; 
+    width: 200px; 
   }
 
-  .Introduction {
+  .intro-top {
     font-size: 14px;
-    width: 50%;
-    height: 80%;
+  }
+
+  .intro-bottom {
+    font-size: 16px;
   }
 
   .photo img{
-    width: 130px;
+    width: 140px;
   }
 
-  .inside {
-    font-size: 10px;
-    height: 20%;
-  }
-
-  .description {
-    font-size: 15px;
+  .category-description {
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .bioimage img {
-    width: 100px; 
+    width: 200px; 
   }
 
-  .Introduction {
-    width: 50%;
-    height: 70%;
-    font-size: 11px;
+  .flex {
+    padding: 32px;
+    flex-direction: column;
+    height: auto;
   }
 
-  .inside {
-    padding: 16px;
-    font-size: 8px;
-    height: 10%;
+  .category-description {
+    text-align: center;
   }
-
-  .inside1 {
-    padding: 16px;
-    height: 30%;
-  }
-
-  .photo img{
-    width: 90px;
-  }
-
-  .description {
-    font-size: 12px;
-    height: 80%;
+  .category-description h3 {
+    margin-bottom: 0px;
   }
 
   .photo {
-    height: 60%;
+    padding: 0px !important;
   }
 
   .category {
     padding-bottom: 16px; 
     flex-direction: column;
-  }
-
-  .flex {
-    padding: 0px;
   }
 
   #projects {
