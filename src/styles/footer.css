@@ -1,5 +1,5 @@
-
 .footerbody {
+    background-color: #fdcdd3;
     height: 132px;
     display: flex;
     flex-direction: column;
@@ -7,6 +7,7 @@
     align-items: center;
     padding-top: 8px;
     border-bottom: 8px solid black;
+    border-top: 2px solid white;
 }
 
 @keyframes walking{
@@ -43,7 +44,7 @@
 .footerLink {
     font-size: 32px;
     text-decoration: none;
-    color: #F2A490;
+    color: #DE5B6D;
 }
 
 @media screen and (max-width: 1156px) {

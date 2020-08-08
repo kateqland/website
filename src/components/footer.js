@@ -1,10 +1,7 @@
 import React from 'react';
 import '../styles/footer.css';
-import { HashLink as Link } from 'react-router-hash-link';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import FontAwesome from 'react-fontawesome';
 
 function footer() {
   return (

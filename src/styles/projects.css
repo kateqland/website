@@ -35,13 +35,13 @@
     height: 100%;
     font-size: 18px;
     padding: 0px 24px;
+    border-left: 3px solid #478BA2;
 }
 
 .project_title {
     display: flex;
     flex-direction: column;
     width: 30%;
-    border-right: solid 3px #478BA2;
     padding: 24px;
     justify-content: center;
     align-items: center;
@@ -77,7 +77,6 @@
     }
 
     .project_title {
-        border-right: solid 5px #478BA2;
         width: 20%;
     }
 
@@ -118,7 +117,12 @@
 
     .p_image {
         width: 40px;
+        padding: 0px;
         padding-top: 5px;
+    }
+    
+    .p_noimage {
+        height: auto;
     }
 
     .project_title {

@@ -1,41 +1,45 @@
 .headerbody {
     height: 80px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 8px;
+    background-color: #fdcdd3;
+    border-bottom: 2px solid white;
 }
 
 .name {
-    width: 10%;
+    width: 25px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 8px;
+    padding: 0px 16px;
     font-size: 18px;
 }
 
 .hdivisor {
-    width: 1%;
+    width: 2px;
     height: 70%;
-    border-left: 1px solid #de5b6d;
+    border-left: 2px solid white;
 }
 
-.tabs {
-    width: 89%;
+.tab-container {
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    float: right;
+    margin-left: auto;
 }
 
-.htab {
-    width: 15%;
+.tab {
+    width: auto;
     text-align: center;
-    padding: 0px 8px;
+    padding: 0px 16px;
     font-size: 18px;
 }
 
@@ -44,95 +48,29 @@
 }
 
 .link {
-    color: #F2A490;
+    color: #DE5B6D;
     text-decoration: none;
 }
 .link:hover {
-    color: #DE5B6D;
+    color: white;
 }
 
 .iconLink {
     text-decoration: none;
-    color: #f5947c;
-}
-.iconLink:hover {
     color: #DE5B6D;
 }
-
-/*part of "header for the tabs"*/
-.dotbar {
-    height: 5vh;
-    display: flex;
-    flex-direction: row;
-    padding: 8px 32px;
-    justify-content: space-evenly;
-    border-top: #de5b6d solid;
-    align-items: center;
+.iconLink:hover {
+    color: white;
 }
 
-.circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: solid  #E9765B;
-}
-
-#colorme {
-    background-color: #E9765B;
-}
-
-@media screen and (max-width: 768px) {
-    .htab {
-        width: 20%; 
-        font-size: 16px;
+@media screen and (max-width: 510px) {
+    .tab {
+        font-size: 15px;
+        padding: 0px 8px;
     }
 
     .name {
-        width: 20%;
-        font-size: 16px;
-    }
-
-    #hphotography {
-        width: 30%;
-    }
-    
-    .dotbar {
-        height: 3vh;
-    }
-
-    .circle {
-        width: 10px;
-        height: 10px;
-    }
-}
-@media screen and (max-width: 480px) {
-    .htab {
-        width: 30%; 
-    }
-    
-    .tabs {
-        width: 80%;
-        font-size: 14px;
-    }
-
-    #hphotography {
-        width: 35%;
-    }
-    
-    .dotbar {
-        height: 1vh;
-    }
-    
-    .circle {
-        width: 5px;
-        height: 5px;
-    }
-
-    .name {
-        font-size: 14px;
-    }
-
-    .hdivisor {
-        height: 50%;
+        font-size: 15px;
+        padding: 8px;
     }
 }

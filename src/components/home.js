@@ -4,6 +4,7 @@ import profile from '../images/me_china.jpg';
 import projects from '../images/hello_world.png';
 import photography from '../images/photography.jpg';
 import art from '../images/art.png';
+import { faBroadcastTower } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   return (
@@ -16,16 +17,16 @@ function Home() {
           <div className="intro-top">
             <h1> Hello, I'm Kate.</h1> 
           </div>
-          <div className="divisor"></div>
+          <div className="divisor" style ={{ marginBottom: '16px'}}></div>
           <div className="intro-bottom">
-            <p>I'm a Computer Science major at UCLA. If you would like to contact me, email me at kateqland@gmail.com.</p>
+            <p style={{ margin: '0px'}}> I'm a Computer Science major at UCLA. If you would like to contact me, email me at kateqland@gmail.com.</p>
           </div>
         </div>
       </div>
 
       <div className="flex" id= "categories">
         <div className="header2">
-            <h3>Interests and Hobbies</h3>
+            <h2>Interests and Hobbies</h2>
         </div>
         <div className="divisor"></div>
         <div className="category" id="art">

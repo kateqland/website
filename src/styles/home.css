@@ -55,8 +55,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width: 70%;
-  height: 100%;
+  width: 80%;
+  height: 90%;
   color: #ffffff;
   border-radius: 16px; 
   position: relative;
@@ -69,17 +69,14 @@
   align-items: center;
   width: 80%;
   height: 30%;
-  border-radius: 16px; 
-  padding: 0px 32px;
 }
 
 .intro-bottom {
   width: 80%;
   height: 30%;
-  border-radius: 16px; 
-  padding: 0px 32px;
   display: flex;
   align-items: center;
+  text-align: top;
 }
 
 #categories {

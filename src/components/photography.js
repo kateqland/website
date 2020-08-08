@@ -26,12 +26,7 @@ import yellow_bloom from '../images/photography/yellow_bloom.jpg';
 function photography() {
     return (
       <div className="photography">
-        <div className= "dotbar">
-          <div className="circle"></div>
-          <div className = "circle"></div>
-          <div className = "circle" id="colorme"></div>
-       </div>
-
+        
         <div className="photobody">
           <p className="title">Photography</p>
           <div className="album_container">

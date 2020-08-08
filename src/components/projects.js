@@ -11,11 +11,6 @@ import pothole_6 from '../images/projects/pothole(6).png';
 function projects() {
     return (
       <div className="projects">
-        <div className= "dotbar">
-            <div className="circle"></div>
-            <div className = "circle" id="colorme"></div>
-            <div className = "circle"></div>
-        </div>
 
         <div className="project_container">
             <p className="title">Projects</p>

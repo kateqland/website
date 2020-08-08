@@ -13,29 +13,29 @@ function header() {
         <div className="headerbody">
             <div className= "name">
                 <Link to= "/" class="iconLink">
-                    <h3><FontAwesomeIcon icon={faHome}/> Kate Land</h3>
+                    <h3><FontAwesomeIcon icon={faHome}/></h3>
                 </Link>
             </div>
 
             <div className="hdivisor">
             </div>
 
-            <div className="tabs">
-                <div className="htab">
+            <div className="tab-container">
+                <div className="tab">
                     <Link to="/Art" class="link" color="#F2A490">
                         <h3><FontAwesomeIcon icon={faPaintBrush}/> Art</h3>
                     </Link>
                 </div>
                 <div className="hdivisor"></div>
                 
-                <div className="htab">
+                <div className="tab">
                     <Link to="/Projects" class="link">
                         <h3><FontAwesomeIcon icon={faLaptop}/> Projects</h3>
                     </Link>
                 </div>
                 <div className="hdivisor"></div>
     
-                <div className="htab" id="hphotography"> 
+                <div className="tab"> 
                     <Link to="/Photography" class="link">
                         <h3><FontAwesomeIcon icon={faCamera}/> Photography</h3>
                     </Link>
@@ -43,7 +43,7 @@ function header() {
                 
             </div>
         </div>
-        
+        <div className="shadow"></div>
     </div>
   );
 }
