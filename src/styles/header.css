@@ -52,7 +52,7 @@
     text-decoration: none;
 }
 .link:hover {
-    color: white;
+    color: #123D60;
 }
 
 .iconLink {
@@ -60,7 +60,7 @@
     color: #DE5B6D;
 }
 .iconLink:hover {
-    color: white;
+    color: #123D60;
 }
 
 @media screen and (max-width: 510px) {

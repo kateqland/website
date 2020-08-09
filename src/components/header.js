@@ -12,7 +12,7 @@ function header() {
     <div className="header">
         <div className="headerbody">
             <div className= "name">
-                <Link to= "/" class="iconLink">
+                <Link to= "/" className="iconLink">
                     <h3><FontAwesomeIcon icon={faHome}/></h3>
                 </Link>
             </div>
@@ -22,21 +22,21 @@ function header() {
 
             <div className="tab-container">
                 <div className="tab">
-                    <Link to="/Art" class="link" color="#F2A490">
+                    <Link to="/Art" className="link" color="#F2A490">
                         <h3><FontAwesomeIcon icon={faPaintBrush}/> Art</h3>
                     </Link>
                 </div>
                 <div className="hdivisor"></div>
                 
                 <div className="tab">
-                    <Link to="/Projects" class="link">
+                    <Link to="/Projects" className="link">
                         <h3><FontAwesomeIcon icon={faLaptop}/> Projects</h3>
                     </Link>
                 </div>
                 <div className="hdivisor"></div>
     
                 <div className="tab"> 
-                    <Link to="/Photography" class="link">
+                    <Link to="/Photography" className="link">
                         <h3><FontAwesomeIcon icon={faCamera}/> Photography</h3>
                     </Link>
                 </div>

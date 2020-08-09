@@ -1,6 +1,6 @@
 .photobody {
     height: auto;
-    background-color: #de5b6d;
+    background-color: #A2D6DB;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,12 +21,15 @@
     background-color: whitesmoke;
     border-radius: 8px;
     padding: 16px;
+    -webkit-box-shadow:0 2px 10px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 2px 10px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 2px 10px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.1) inset;
 }
 
 .picture {
     height: 300px; 
     margin: 8px;
-    border: 1px solid black;
+    border: 1px solid #123D60;
 }
 
 @media screen and (max-width: 480px) {

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
+import { HashLink as Link } from 'react-router-hash-link';
 import profile from '../images/me_china.jpg';
 import projects from '../images/hello_world.png';
 import photography from '../images/photography.jpg';
@@ -33,7 +34,7 @@ function Home() {
             <img src={art} alt="drawn cat outline"></img>
           </div>
           <div className="category-description">
-            <h3>Art</h3>
+            <Link to="/Art" className="link" style={{color: "black"}}><h3>Art</h3></Link>
             <p>
               I like to doodle and am recently trying to get into digital art. These are some of the pieces that I have made.
             </p>
@@ -42,7 +43,7 @@ function Home() {
         <div className="divisor"></div>
         <div className="category" id="projects">
           <div className="category-description">
-            <h3>Projects</h3>
+            <Link to="/Projects" className="link" style={{color: "black"}}><h3>Projects</h3></Link>
             <p> 
               Not only do I code during my classes, but I also tinker around with code outside class. Here are some of my projects that I have created.
             </p>
@@ -57,11 +58,11 @@ function Home() {
             <img src={photography} alt="me at Big Sur"></img>
           </div>
           <div className="category-description">
-          <h3>Photography</h3>
-          <p>
-            I love admiring the scenery around me. Here are some shots that I have taken with a phone camera while traveling around.
-          </p>
-        </div>
+            <Link to="/Photography" className="link" style={{color: "black"}}><h3>Photography</h3></Link>
+            <p>
+              I love admiring the scenery around me. Here are some shots that I have taken with a phone camera while traveling around.
+            </p>
+          </div>
         </div> 
       </div>
     </div>

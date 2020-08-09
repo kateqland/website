@@ -4,7 +4,7 @@
   height: 40vh;
   display: flex;
   flex-direction: row;
-  background-color: #478ba2;
+  background-color: #4185a0;
   padding: 16px 64px;
   align-items: center;
   justify-content: space-evenly ;
@@ -81,7 +81,7 @@
 
 #categories {
   height: 100vh;
-  background-color: #b9d4db;
+  background-color: #A2D6DB;
   flex-direction: column;
   padding: 16px;
 }
