@@ -17,8 +17,8 @@ function projects() {
             <div className="project">
                 <div className="p_noimage">
                     <div className="project_title">
-                        <p className="project_name">Potholes</p>
-                        <img src={pothole} width= "120px" ></img>
+                        <p className="project_name">Holed Up</p>
+                        <img src={pothole} alt="Patch the pothole (logo)" width= "120px" ></img>
                     </div>
                     <div className="project_description">
                         <p>Developed an IOS app that tracked all user's input about potholes. User can use Apple Maps to pinpoint the pothole; 
@@ -28,12 +28,12 @@ function projects() {
                     </div>
                 </div>
                 <div className="project_images">
-                    <img src={pothole_1} className="p_image"></img>
-                    <img src={pothole_2} className="p_image"></img>
-                    <img src={pothole_3} className="p_image"></img>
-                    <img src={pothole_4} className="p_image"></img>
-                    <img src={pothole_5} className="p_image"></img>
-                    <img src={pothole_6} className="p_image"></img>
+                    <img src={pothole_1} alt="home screen" className="p_image"></img>
+                    <img src={pothole_2} alt="map screen" className="p_image"></img>
+                    <img src={pothole_3} alt="report screen" className="p_image"></img>
+                    <img src={pothole_4} alt="rating screen" className="p_image"></img>
+                    <img src={pothole_5} alt="thank you screen" className="p_image"></img>
+                    <img src={pothole_6} alt="already reported screen" className="p_image"></img>
                 </div>
             </div>
         </div>

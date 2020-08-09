@@ -4,7 +4,6 @@ import profile from '../images/me_china.jpg';
 import projects from '../images/hello_world.png';
 import photography from '../images/photography.jpg';
 import art from '../images/art.png';
-import { faBroadcastTower } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   return (
@@ -31,7 +30,7 @@ function Home() {
         <div className="divisor"></div>
         <div className="category" id="art">
           <div className="photo">
-            <img src={art}></img>
+            <img src={art} alt="drawn cat outline"></img>
           </div>
           <div className="category-description">
             <h3>Art</h3>
@@ -49,13 +48,13 @@ function Home() {
             </p>
           </div>
           <div className="photo" style={{paddingRight: '0px', paddingLeft: '32px'}}>
-            <img src={projects}/>
+            <img src={projects} alt="hello world"/>
           </div>
         </div> 
         <div className="divisor"></div>
         <div className="category" id="photography">
           <div className="photo">
-            <img src={photography}></img>
+            <img src={photography} alt="me at Big Sur"></img>
           </div>
           <div className="category-description">
           <h3>Photography</h3>

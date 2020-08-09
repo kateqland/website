@@ -26,40 +26,40 @@ import yellow_bloom from '../images/photography/yellow_bloom.jpg';
 function photography() {
     return (
       <div className="photography">
-        
+
         <div className="photobody">
           <p className="title">Photography</p>
           <div className="album_container">
             {/* beach */}
-            <img class="picture" src={beach_walk}/>
-            <img class="picture" src={sanDiego_beach}/>
-            <img class="picture" src={sleeping_seal}/>
-            <img class="picture" src={sleeping_seal_sunset}/>
+            <img className="picture" src={beach_walk} alt="beach"/>
+            <img className="picture" src={sanDiego_beach} alt="beach sunset"/>
+            <img className="picture" src={sleeping_seal} alt="Ja Holla seals"/>
+            <img className="picture" src={sleeping_seal_sunset} alt="Ja Holla seals sunset"/>
 
             {/* water with dark vibe */}
-            <img class="picture" src={crystal_blue}/>
-            <img class="picture" src={stormy_blue}/>
-            <img class="picture" src={blue_lake}/>
-            <img class="picture" src={lake_sunset}/>
+            <img className="picture" src={crystal_blue} alt="Big Sur cove"/>
+            <img className="picture" src={stormy_blue} alt="Big Sur"/>
+            <img className="picture" src={blue_lake} alt="lake sunset"/>
+            <img className="picture" src={lake_sunset} alt="lake sunset 2"/>
             
             {/* dark */}
-            <img class="picture" src={campfire}/>
-            <img class="picture" src={woods}/>
+            <img className="picture" src={campfire} alt="campfire"/>
+            <img className="picture" src={woods} alt="trees in dusk"/>
             
             {/* structures with random duck */}
-            <img class="picture" src={USC_trees}/>
-            <img class="picture" src={Michigan_bench}/>
-            <img class="picture" src={duck}/>
-            <img class="picture" src={china_bench}/>
-            <img class="picture" src={rocky_bridge}/>
-            <img class="picture" src={golden_gate}/>
-            <img class="picture" src={golden_gate_side}/>
+            <img className="picture" src={USC_trees} alt="trees in bloom (University of SC)"/>
+            <img className="picture" src={Michigan_bench} alt="bench in Michigan"/>
+            <img className="picture" src={duck} alt="duck"/>
+            <img className="picture" src={china_bench} alt="benches in shelter"/>
+            <img className="picture" src={rocky_bridge} alt="bridge side view (Big Sur)"/>
+            <img className="picture" src={golden_gate} alt="Golden Gate Bridge front view"/>
+            <img className="picture" src={golden_gate_side} alt="Golden Gate Bridge side view"/>
 
             {/*flower*/}
-            <img class="picture" src={pink_flower}/> 
-            <img class="picture" src={rose}/>
-            <img class="picture" src={rose_light}/>
-            <img class="picture" src={yellow_bloom}/>
+            <img className="picture" src={pink_flower} alt="pink flower"/> 
+            <img className="picture" src={rose} alt="rose in focus"/>
+            <img className="picture" src={rose_light} alt="rose in daybreak"/>
+            <img className="picture" src={yellow_bloom} alt="yellow flowers"/>
           </div>
         </div>
         
