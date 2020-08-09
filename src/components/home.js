@@ -25,7 +25,7 @@ function Home() {
       </div>
 
       <div className="flex" id= "categories">
-        <div className="header2">
+        <div id="category-title">
             <h2>Interests and Hobbies</h2>
         </div>
         <div className="divisor"></div>

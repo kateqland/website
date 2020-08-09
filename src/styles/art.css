@@ -1,12 +1,23 @@
+.title {
+    font-size: 45px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-weight: 700;
+}
+
 .art_body {
     height: auto;
+    background-color: #A2D6DB;
     display: flex;
     flex-direction: column;
-    margin: none;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
 
 .art_container {
-    height: 200px;
+    height: 100px;
 }
 
 .art_container h1 {
