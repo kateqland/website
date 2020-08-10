@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.55cfdfbc.chunk.css",
-    "main.js": "/static/js/main.c3a556e9.chunk.js",
-    "main.js.map": "/static/js/main.c3a556e9.chunk.js.map",
+    "main.js": "/static/js/main.da635006.chunk.js",
+    "main.js.map": "/static/js/main.da635006.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
     "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
     "static/js/2.7f2cdd8f.chunk.js": "/static/js/2.7f2cdd8f.chunk.js",
     "static/js/2.7f2cdd8f.chunk.js.map": "/static/js/2.7f2cdd8f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.605e600cdb2b267519cc60e01eeb865c.js": "/precache-manifest.605e600cdb2b267519cc60e01eeb865c.js",
+    "precache-manifest.9ba16d12b52e08bd7e12f85819e8a099.js": "/precache-manifest.9ba16d12b52e08bd7e12f85819e8a099.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.55cfdfbc.chunk.css.map": "/static/css/main.55cfdfbc.chunk.css.map",
     "static/js/2.7f2cdd8f.chunk.js.LICENSE.txt": "/static/js/2.7f2cdd8f.chunk.js.LICENSE.txt",
@@ -29,12 +29,12 @@
     "static/media/me_china.jpg": "/static/media/me_china.d54bea62.jpg",
     "static/media/photography.jpg": "/static/media/photography.8202e49b.jpg",
     "static/media/pink_flower.jpg": "/static/media/pink_flower.91f60e0a.jpg",
-    "static/media/pothole(1).png": "/static/media/pothole(1).11c953ff.png",
-    "static/media/pothole(2).png": "/static/media/pothole(2).f585d616.png",
-    "static/media/pothole(3).png": "/static/media/pothole(3).ec73744c.png",
-    "static/media/pothole(4).png": "/static/media/pothole(4).df96303d.png",
-    "static/media/pothole(5).png": "/static/media/pothole(5).86d4c9a5.png",
-    "static/media/pothole(6).png": "/static/media/pothole(6).c4488382.png",
+    "static/media/pothole(1).png": "/static/media/pothole(1).c259bad5.png",
+    "static/media/pothole(2).png": "/static/media/pothole(2).60980966.png",
+    "static/media/pothole(3).png": "/static/media/pothole(3).6ea72714.png",
+    "static/media/pothole(4).png": "/static/media/pothole(4).ad587c1a.png",
+    "static/media/pothole(5).png": "/static/media/pothole(5).e0ecdbc1.png",
+    "static/media/pothole(6).png": "/static/media/pothole(6).6457a626.png",
     "static/media/rocky_bridge.jpg": "/static/media/rocky_bridge.efc90803.jpg",
     "static/media/rose.jpg": "/static/media/rose.64f87200.jpg",
     "static/media/rose_light.png": "/static/media/rose_light.f7c9851e.png",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.3374ac37.js",
     "static/js/2.7f2cdd8f.chunk.js",
     "static/css/main.55cfdfbc.chunk.css",
-    "static/js/main.c3a556e9.chunk.js"
+    "static/js/main.da635006.chunk.js"
   ]
 }
