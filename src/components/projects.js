@@ -20,6 +20,7 @@ function projects() {
                         <p className="project_name">Holed Up</p>
                         <img src={pothole} alt="Patch the pothole (logo)" width= "120px" ></img>
                     </div>
+                    <div className="divisor" style={{height: '200px', width: '3px', backgroundColor: '#A2D6DB', border: 'none'}}></div>
                     <div className="project_description">
                         <p>Developed an IOS app that tracked all user's input about potholes. User can use Apple Maps to pinpoint the pothole; 
                             if there is already a review, user can rate and submit another recording of that same pothole. Using a formula based on the serverity of the pothole
