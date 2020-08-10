@@ -1,13 +1,13 @@
 .footerbody {
-    background-color: #fdcdd3;
-    height: 132px;
+    background-color: whitesmoke; /* #fdcdd3;*/
+    height: 110px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding-top: 8px;
     border-bottom: 8px solid black;
-    border-top: 2px solid white;
+    border-top: 2px solid #123D60;
 }
 
 @keyframes walking{
@@ -29,7 +29,7 @@
     height: 42px;
     width: 90px;
     background: url(../images/cat_walking.png) 0 0 no-repeat;
-    animation: walking steps(11)  infinite 10s;
+    animation: walking steps(11)  infinite 40s;
     z-index: -5;
 }
 

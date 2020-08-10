@@ -51,6 +51,10 @@
     padding: 8px;
 }
 
+.project_title img{
+    width: 100px;
+}
+
 .project_images {
     display:flex;
     flex-direction: row;
@@ -102,6 +106,10 @@
             font-size: 22px;
         }
 
+        .project_title img {
+            width: 50px;
+        }
+
         .project {
             padding: 16px;
         }
@@ -131,10 +139,6 @@
 
     .project_title {
         width: 20%;
-    }
-
-    .project_title img {
-        width: 60px;
     }
 
     .project_name {

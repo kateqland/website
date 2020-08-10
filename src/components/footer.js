@@ -16,8 +16,8 @@ function footer() {
             </div>
           </div>
           
-          <div className= "text">
-            <p>&copy; Kate Land 2020.</p>
+          <div>
+            <p style={{marginBottom:'0px'}}>&copy; Kate Land 2020.</p>
           </div>
           <div className="cat_box">
             <div className="catanim"></div>

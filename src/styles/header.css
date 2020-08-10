@@ -5,8 +5,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #fdcdd3;
-    border-bottom: 2px solid white;
+    background-color: whitesmoke; /*#fdcdd3;*/
+    border-bottom: 2px solid #123D60;
 }
 
 .name {
@@ -22,7 +22,7 @@
 .hdivisor {
     width: 2px;
     height: 70%;
-    border-left: 2px solid white;
+    border-left: 2px solid #DE5B6D;
 }
 
 .tab-container {
