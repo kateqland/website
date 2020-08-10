@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.13af0e39.chunk.css",
-    "main.js": "/static/js/main.050b2426.chunk.js",
-    "main.js.map": "/static/js/main.050b2426.chunk.js.map",
+    "main.css": "/static/css/main.bcb4da6e.chunk.css",
+    "main.js": "/static/js/main.a384278b.chunk.js",
+    "main.js.map": "/static/js/main.a384278b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
     "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
-    "static/js/2.c25b1833.chunk.js": "/static/js/2.c25b1833.chunk.js",
-    "static/js/2.c25b1833.chunk.js.map": "/static/js/2.c25b1833.chunk.js.map",
+    "static/js/2.7f2cdd8f.chunk.js": "/static/js/2.7f2cdd8f.chunk.js",
+    "static/js/2.7f2cdd8f.chunk.js.map": "/static/js/2.7f2cdd8f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.17bf37d3cfa1f4d8f1162f142339b4c7.js": "/precache-manifest.17bf37d3cfa1f4d8f1162f142339b4c7.js",
+    "precache-manifest.5a476b82d8187ef8117b4d1c763ae191.js": "/precache-manifest.5a476b82d8187ef8117b4d1c763ae191.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.13af0e39.chunk.css.map": "/static/css/main.13af0e39.chunk.css.map",
-    "static/js/2.c25b1833.chunk.js.LICENSE.txt": "/static/js/2.c25b1833.chunk.js.LICENSE.txt",
+    "static/css/main.bcb4da6e.chunk.css.map": "/static/css/main.bcb4da6e.chunk.css.map",
+    "static/js/2.7f2cdd8f.chunk.js.LICENSE.txt": "/static/js/2.7f2cdd8f.chunk.js.LICENSE.txt",
     "static/media/Michigan_bench.jpg": "/static/media/Michigan_bench.00b59db6.jpg",
     "static/media/USC_trees.jpg": "/static/media/USC_trees.31077a66.jpg",
     "static/media/art.png": "/static/media/art.0e2eea09.png",
@@ -25,8 +25,8 @@
     "static/media/golden_gate.jpg": "/static/media/golden_gate.966b9f42.jpg",
     "static/media/golden_gate_side.jpg": "/static/media/golden_gate_side.2c2cffaf.jpg",
     "static/media/hello_world.png": "/static/media/hello_world.ec81f8ab.png",
-    "static/media/kitty_blep.jpg": "/static/media/kitty_blep.e49ea7c0.jpg",
     "static/media/lake_sunset.jpg": "/static/media/lake_sunset.002f3ec5.jpg",
+    "static/media/me_china.jpg": "/static/media/me_china.d54bea62.jpg",
     "static/media/photography.jpg": "/static/media/photography.8202e49b.jpg",
     "static/media/pink_flower.jpg": "/static/media/pink_flower.91f60e0a.jpg",
     "static/media/pothole(1).png": "/static/media/pothole(1).11c953ff.png",
@@ -47,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
-    "static/js/2.c25b1833.chunk.js",
-    "static/css/main.13af0e39.chunk.css",
-    "static/js/main.050b2426.chunk.js"
+    "static/js/2.7f2cdd8f.chunk.js",
+    "static/css/main.bcb4da6e.chunk.css",
+    "static/js/main.a384278b.chunk.js"
   ]
 }
