@@ -1,5 +1,5 @@
 .footerbody {
-    background-color: whitesmoke; /* #fdcdd3;*/
+    background-color: rgb(255, 249, 234); /* #fdcdd3;*/
     height: 110px;
     display: flex;
     flex-direction: column;

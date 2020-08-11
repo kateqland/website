@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: whitesmoke; /*#fdcdd3;*/
+    background-color: rgb(255, 249, 234); /*#fdcdd3;*/
     border-bottom: 2px solid #123D60;
 }
 
