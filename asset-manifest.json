@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.55cfdfbc.chunk.css",
-    "main.js": "/static/js/main.da635006.chunk.js",
-    "main.js.map": "/static/js/main.da635006.chunk.js.map",
+    "main.css": "/static/css/main.81826cf7.chunk.css",
+    "main.js": "/static/js/main.6bc20077.chunk.js",
+    "main.js.map": "/static/js/main.6bc20077.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
     "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
-    "static/js/2.7f2cdd8f.chunk.js": "/static/js/2.7f2cdd8f.chunk.js",
-    "static/js/2.7f2cdd8f.chunk.js.map": "/static/js/2.7f2cdd8f.chunk.js.map",
+    "static/js/2.5b33eb68.chunk.js": "/static/js/2.5b33eb68.chunk.js",
+    "static/js/2.5b33eb68.chunk.js.map": "/static/js/2.5b33eb68.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9ba16d12b52e08bd7e12f85819e8a099.js": "/precache-manifest.9ba16d12b52e08bd7e12f85819e8a099.js",
+    "precache-manifest.a37eddffddab5043da242041d1eefdfc.js": "/precache-manifest.a37eddffddab5043da242041d1eefdfc.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.55cfdfbc.chunk.css.map": "/static/css/main.55cfdfbc.chunk.css.map",
-    "static/js/2.7f2cdd8f.chunk.js.LICENSE.txt": "/static/js/2.7f2cdd8f.chunk.js.LICENSE.txt",
+    "static/css/main.81826cf7.chunk.css.map": "/static/css/main.81826cf7.chunk.css.map",
+    "static/js/2.5b33eb68.chunk.js.LICENSE.txt": "/static/js/2.5b33eb68.chunk.js.LICENSE.txt",
     "static/media/Michigan_bench.jpg": "/static/media/Michigan_bench.00b59db6.jpg",
     "static/media/USC_trees.jpg": "/static/media/USC_trees.31077a66.jpg",
     "static/media/art.png": "/static/media/art.0e2eea09.png",
@@ -20,8 +20,10 @@
     "static/media/campfire.jpg": "/static/media/campfire.c219bab7.jpg",
     "static/media/footer.css": "/static/media/cat_walking.f4394e04.png",
     "static/media/china_bench.jpg": "/static/media/china_bench.7827581e.jpg",
+    "static/media/cockatiel.jpg": "/static/media/cockatiel.cd8dfc61.jpg",
     "static/media/crystal_blue.jpg": "/static/media/crystal_blue.ffcdc87e.jpg",
     "static/media/duck.jpg": "/static/media/duck.946f2acc.jpg",
+    "static/media/easygov.png": "/static/media/easygov.e3b8d0a7.png",
     "static/media/golden_gate.jpg": "/static/media/golden_gate.966b9f42.jpg",
     "static/media/golden_gate_side.jpg": "/static/media/golden_gate_side.2c2cffaf.jpg",
     "static/media/hello_world.png": "/static/media/hello_world.ec81f8ab.png",
@@ -47,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
-    "static/js/2.7f2cdd8f.chunk.js",
-    "static/css/main.55cfdfbc.chunk.css",
-    "static/js/main.da635006.chunk.js"
+    "static/js/2.5b33eb68.chunk.js",
+    "static/css/main.81826cf7.chunk.css",
+    "static/js/main.6bc20077.chunk.js"
   ]
 }
