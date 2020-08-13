@@ -18,9 +18,20 @@
 }
 
 .art_container {
-    height: 100px;
+    height: auto;
+    width: 100%;
 }
 
 .art_container h1 {
     font-size: 26;
+}
+
+.art_image {
+    width: 400px;
+}
+
+@media screen and (max-width: 480px) {
+    .art_image {
+        width: 200px;
+    }
 }

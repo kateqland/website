@@ -3,7 +3,7 @@ import '../styles/footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
-function footer() {
+function Footer() {
   return (
     <div className="footer">
         <div className="footerbody">
@@ -28,4 +28,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

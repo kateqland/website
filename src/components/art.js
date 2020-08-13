@@ -1,20 +1,22 @@
 import React from 'react';
 import '../styles/art.css';
+import cockatiel from '../images/art/cockatiel.jpg'
 
-function research() {
+function Art() {
     return (
       <div className="art" style={{backgroundColor: '#A2D6DB'}}>
 
         <div className="art_body">
             <p className="title">Art</p>
-        </div>
-
-        <div className = "art_container">
-          <h1>Coming Soon</h1>
+      
+          <div className = "art_container">
+            <img src={cockatiel} alt="cockatiel" className="art_image"></img>
+            <h3 style={{marginTop: '8px'}}>Cockatiel</h3>
+          </div>
         </div>
       </div>
     );
 }
 
 
-export default research;
+export default Art;

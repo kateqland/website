@@ -23,7 +23,7 @@ import woods from '../images/photography/woods.jpg';
 import yellow_bloom from '../images/photography/yellow_bloom.jpg';
 
 
-function photography() {
+function Photography() {
     return (
       <div className="photography">
 
@@ -66,4 +66,4 @@ function photography() {
       </div>
     );
 }
-export default photography;
+export default Photography;

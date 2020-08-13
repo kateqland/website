@@ -7,7 +7,7 @@ import { faLaptop } from "@fortawesome/free-solid-svg-icons";
 import { faCamera } from "@fortawesome/free-solid-svg-icons";
 import { faPaintBrush } from "@fortawesome/free-solid-svg-icons";
 
-function header() {
+function Header() {
   return (
     <div className="header">
         <div className="headerbody">
@@ -48,4 +48,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;
