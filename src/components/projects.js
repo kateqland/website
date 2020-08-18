@@ -24,9 +24,9 @@ function Projects() {
                 </div>
                 <div className="project_description">
                     <p>
-                        Developed an IOS app that tracked all user's input about potholes. User can use Apple Maps to pinpoint the pothole; 
-                        if there is already a review, user can rate and submit another recording of that same pothole. Using a formula based on the serverity of the pothole
-                        and amount of ratings, an email and call will be placed to get the roads fixed.
+                        Holed Up is an IOS app that tracks all user's inputs about potholes. The user uses Apple Maps to pinpoint the pothole; 
+                        if there is already a review, the user can rate and submit another recording of that same pothole. Using a formula based on the serverity of the pothole's rating
+                        and amount of submissions, an email and call will be placed to the government to get the roads fixed. This was built during WomxnHacks 2020 where I won best mobile app.
                     </p>
                 </div>
             </div>
@@ -46,9 +46,10 @@ function Projects() {
                 </div>
                 <div className="project_description">
                     <p>
-                        Did frontend design for main site using GatsbyJS and React with GraphQL data query. Implemented backend as well such as 
-                        emailing a recipient using NodeJS and RESTful API; 
-                        EasyGov is a website that allows users to fill out government forms online without hassle. It comes out as a downloadable pdf.
+                    EasyGov is an online service for immigrants and non-native English speakers. 
+                    We provide translated government forms that users can fill out and have their responses downloaded in the official English version of the form. 
+                    I helped build the main pages of the website using React, GatsbyJS, and GraphQL. I also designed and built the form components in Storybook using React. 
+                    I implemented a backend function that automatically sends an email response to users. This was done using NodeJS and RESTful API. 
                     </p>
                 </div>
             </div>

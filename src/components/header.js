@@ -22,7 +22,7 @@ function Header() {
 
             <div className="tab-container">
                 <div className="tab">
-                    <Link to="/Art" className="link" color="#F2A490">
+                    <Link to="/Art" className="link">
                         <h3><FontAwesomeIcon icon={faPaintBrush}/> Art</h3>
                     </Link>
                 </div>

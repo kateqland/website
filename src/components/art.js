@@ -11,7 +11,7 @@ function Art() {
       
           <div className = "art_container">
             <img src={cockatiel} alt="cockatiel" className="art_image"></img>
-            <h3 style={{marginTop: '8px'}}>Cockatiel</h3>
+            <p style={{marginTop: '8px'}}>Cockatiel</p>
           </div>
         </div>
       </div>
