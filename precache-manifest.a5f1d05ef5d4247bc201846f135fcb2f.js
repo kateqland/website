@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6980697a97e414aa0effdf4523d5aac9",
+    "revision": "53094cf5483f9261a62b071ae54613e3",
     "url": "/index.html"
   },
   {
-    "revision": "1ff91a3254a34b1f0c1f",
+    "revision": "a597382bd46fdd3b0365",
     "url": "/static/css/main.81826cf7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5b33eb68.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ff91a3254a34b1f0c1f",
-    "url": "/static/js/main.ab6d3c1f.chunk.js"
+    "revision": "a597382bd46fdd3b0365",
+    "url": "/static/js/main.88b93e1a.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/USC_trees.a60a99a2.jpg"
   },
   {
-    "revision": "4bc7510ce54bfe3c8d673a82f9001f72",
-    "url": "/static/media/art.4bc7510c.png"
+    "revision": "37641eaa1292bbec0042c7212e9e0401",
+    "url": "/static/media/art.37641eaa.png"
   },
   {
     "revision": "e46fa719fbc9465ae19ee256d29393cb",
@@ -80,16 +80,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/golden_gate_side.413e344b.jpg"
   },
   {
-    "revision": "38add2b1ed52ea14f7dc24b1384abd24",
-    "url": "/static/media/hello_world.38add2b1.png"
+    "revision": "6b3440da0d05310bf039c31e317f6d53",
+    "url": "/static/media/hello_world.6b3440da.png"
   },
   {
     "revision": "381357ca74b0903b7364642a8448b42b",
     "url": "/static/media/lake_sunset.381357ca.jpg"
   },
   {
-    "revision": "62f1e3b41b97b2bc38eaaee66444c124",
-    "url": "/static/media/me_china.62f1e3b4.jpg"
+    "revision": "b14568591abba4d6a57132d0c710f8b5",
+    "url": "/static/media/me_china.b1456859.jpg"
   },
   {
     "revision": "b6b193cb7e651a5c3b04839f50d89323",
