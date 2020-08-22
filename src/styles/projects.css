@@ -31,12 +31,6 @@
     background-color: #123D60;
 }
 
-@media screen and (max-width: 480px) {
-    .redirect {
-        margin-right: 8px;
-    }
-}
-
 .project_body {
     height: auto;
     background-color: #A2D6DB;
