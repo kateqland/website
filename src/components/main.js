@@ -4,6 +4,7 @@ import Home from './home';
 import Projects from './projects';
 import Art from './art';
 import Photography from './photography';
+import Projects_Photos from './projects_photos';
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <Route exact path='/photography' component={Photography}></Route>
       <Route exact path='/projects' component={Projects}></Route>
       <Route exact path='/art' component={Art}></Route>
+      <Route exact path='/projects_photos' component={Projects_Photos}></Route>
     </Switch>
   );
 }

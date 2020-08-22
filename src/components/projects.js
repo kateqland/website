@@ -1,13 +1,8 @@
 import React from 'react';
 import '../styles/projects.css';
+import { HashLink as Link } from 'react-router-hash-link';
 // pothole
 import pothole from '../images/projects/pixil-frame-0.png';
-import pothole_1 from '../images/projects/pothole(1).png';
-import pothole_2 from '../images/projects/pothole(2).png';
-import pothole_3 from '../images/projects/pothole(3).png';
-import pothole_4 from '../images/projects/pothole(4).png';
-import pothole_5 from '../images/projects/pothole(5).png';
-import pothole_6 from '../images/projects/pothole(6).png';
 // easygov
 import easygov from '../images/projects/easygov.png';
 
@@ -16,7 +11,12 @@ function Projects() {
       <div className="projects">
 
         <div className="project_body">
+            
             <p className="title">Projects</p>
+            <div className="row">
+                <a className="redirect" href="#Projects_Photos"><button className="redirect-button">Project Photos</button></a>
+            </div>
+
             <div className="project" style={{marginTop:'0px'}}>
                 <div className="project_card">
                     <p className="project_name">Holed Up</p>
@@ -29,14 +29,6 @@ function Projects() {
                         and amount of submissions, an email and call will be placed to the government to get the roads fixed. This was built during WomxnHacks 2020 where I won best mobile app.
                     </p>
                 </div>
-            </div>
-            <div className="project_images">
-                <img src={pothole_1} alt="home screen" className="p_image"></img>
-                <img src={pothole_2} alt="map screen" className="p_image"></img>
-                <img src={pothole_3} alt="report screen" className="p_image"></img>
-                <img src={pothole_4} alt="rating screen" className="p_image"></img>
-                <img src={pothole_5} alt="thank you screen" className="p_image"></img>
-                <img src={pothole_6} alt="already reported screen" className="p_image"></img>
             </div>
 
             <div className="project">
