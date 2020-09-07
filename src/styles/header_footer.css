@@ -7,7 +7,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 250, 239);
+    background-color: #fdf4ec;
     border-bottom: 2px solid #123D60;
 }
 
@@ -80,7 +80,7 @@
 
 /*-----------------------------FOOTER---------------*/
 .footerbody {
-    background-color: rgb(255, 250, 239); /* #fdcdd3;*/
+    background-color: #fdf4ec; 
     display: flex;
     flex-direction: column;
     align-items: center;

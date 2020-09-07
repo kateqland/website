@@ -31,7 +31,7 @@ function Home() {
         <div className="divisor"></div>
         <div className="category" id="art">
           <div className="photo">
-            <img src={art} alt="drawn cat outline"></img>
+            <img src={art} alt="drawn cat outline" style={{border: 'none'}}></img>
           </div>
           <div className="category-description">
             <Link to="/Art" className="link" style={{textDecoration: 'underline'}}><h3>Art</h3></Link>
