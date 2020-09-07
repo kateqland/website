@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/footer.css';
+import '../styles/header_footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
@@ -17,7 +17,7 @@ function Footer() {
           </div>
           
           <div className="row">
-            <div style={{borderBottom: 'black solid 2px'}}>
+            <div>
               <div className="catanim"></div>
             </div>
             <p style={{marginLeft:'16px'}}>&copy; Kate Land 2020.</p>

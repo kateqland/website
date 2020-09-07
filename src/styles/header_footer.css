@@ -1,3 +1,5 @@
+/*-----------------------------HEADER---------------*/
+
 .headerbody {
     height: 80px;
     width: 100%;
@@ -5,7 +7,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 250, 239); /*#fdcdd3;*/
+    background-color: rgb(255, 250, 239);
     border-bottom: 2px solid #123D60;
 }
 
@@ -72,5 +74,63 @@
     .name {
         font-size: 15px;
         padding: 8px;
+    }
+}
+
+
+/*-----------------------------FOOTER---------------*/
+.footerbody {
+    background-color: rgb(255, 250, 239); /* #fdcdd3;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    border-top: 2px solid #123D60;
+}
+
+@keyframes walking{
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+.catanim {
+    height: 42px;
+    width: 90px;
+    background: url(../images/cat_walking.png) 0 0 no-repeat;
+    animation: walking steps(11)  infinite 2s;
+    z-index: -5;
+}
+
+
+.socialbar-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialbar {
+    width: auto;
+}
+
+.footerLink {
+    font-size: 32px;
+    text-decoration: none;
+    color: #DE5B6D;
+    margin: 8px;
+}
+
+@media screen and (max-width: 480px) {
+    .text {
+        font-size: 14px;
+    }
+
+    .footerbody {
+        height: 128px;
     }
 }
