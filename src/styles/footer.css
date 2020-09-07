@@ -1,35 +1,28 @@
 .footerbody {
     background-color: rgb(255, 250, 239); /* #fdcdd3;*/
-    height: 132px;
+    height: 102px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    padding-top: 8px;
-    border-bottom: 8px solid black;
+    justify-content: center;
+    padding: 8px 0px;
     border-top: 2px solid #123D60;
 }
 
 @keyframes walking{
     0% {
         background-position: 0 0;
-        transform: translateX(0%);
     }
     100% {
         background-position: 0 100%;
-        transform: translateX(100vw);
     }
-}
-
-.cat_box {
-    width: 100%;
 }
 
 .catanim {
     height: 42px;
     width: 90px;
     background: url(../images/cat_walking.png) 0 0 no-repeat;
-    animation: walking steps(11)  infinite 40s;
+    animation: walking steps(11)  infinite 2s;
     z-index: -5;
 }
 
@@ -54,114 +47,7 @@
     margin: 8px;
 }
 
-@media screen and (max-width: 1156px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(99vw);
-        }
-    }
-}
-@media screen and (max-width: 1050px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(98vw);
-        }
-    }
-}
-@media screen and (max-width: 966px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(97vw);
-        }
-    }
-}
-@media screen and (max-width: 888px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(95vw);
-        }
-    }
-}
-@media screen and (max-width: 768px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(93vw);
-        }
-    }
-}
-@media screen and (max-width: 680px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(91vw);
-        }
-    }
-}
-@media screen and (max-width: 611px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(88vw);
-        }
-    }
-}
-@media screen and (max-width: 530px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(85vw);
-        }
-    }
-}
 @media screen and (max-width: 480px) {
-    @keyframes walking{
-        0% {
-            background-position: 0 0;
-            transform: translateX(0%);
-        }
-        100% {
-            background-position: 0 100%;
-            transform: translateX(80vw);
-        }
-    }
-
     .text {
         font-size: 14px;
     }

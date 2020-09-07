@@ -13,7 +13,7 @@ function Projects() {
         <div className="project_body">
             
             <p className="title">Projects</p>
-            <div className="row">
+            <div className="row" style={{top: '0', position: 'absolute'}}>
                 <a className="redirect" href="#Projects_Photos"><button className="redirect-button">Project Photos</button></a>
             </div>
 

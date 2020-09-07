@@ -16,11 +16,11 @@ function Footer() {
             </div>
           </div>
           
-          <div>
-            <p style={{marginBottom:'0px'}}>&copy; Kate Land 2020.</p>
-          </div>
-          <div className="cat_box">
-            <div className="catanim"></div>
+          <div className="row">
+            <div style={{borderBottom: 'black solid 2px'}}>
+              <div className="catanim"></div>
+            </div>
+            <p style={{marginLeft:'16px'}}>&copy; Kate Land 2020.</p>
           </div>
         </div>
         
