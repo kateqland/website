@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2413d852.chunk.css",
-    "main.js": "/static/js/main.2e4bbd17.chunk.js",
-    "main.js.map": "/static/js/main.2e4bbd17.chunk.js.map",
+    "main.css": "/static/css/main.54deba93.chunk.css",
+    "main.js": "/static/js/main.7cac546d.chunk.js",
+    "main.js.map": "/static/js/main.7cac546d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
     "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
-    "static/js/2.cb1bc8b8.chunk.js": "/static/js/2.cb1bc8b8.chunk.js",
-    "static/js/2.cb1bc8b8.chunk.js.map": "/static/js/2.cb1bc8b8.chunk.js.map",
+    "static/js/2.f5848551.chunk.js": "/static/js/2.f5848551.chunk.js",
+    "static/js/2.f5848551.chunk.js.map": "/static/js/2.f5848551.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8169b33610f3a53d4cefc82249b48f56.js": "/precache-manifest.8169b33610f3a53d4cefc82249b48f56.js",
+    "precache-manifest.2af11a3c097aaca25484c41f3ea98c6f.js": "/precache-manifest.2af11a3c097aaca25484c41f3ea98c6f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2413d852.chunk.css.map": "/static/css/main.2413d852.chunk.css.map",
-    "static/js/2.cb1bc8b8.chunk.js.LICENSE.txt": "/static/js/2.cb1bc8b8.chunk.js.LICENSE.txt",
+    "static/css/main.54deba93.chunk.css.map": "/static/css/main.54deba93.chunk.css.map",
+    "static/js/2.f5848551.chunk.js.LICENSE.txt": "/static/js/2.f5848551.chunk.js.LICENSE.txt",
     "static/media/Michigan_bench.jpg": "/static/media/Michigan_bench.bd1e700a.jpg",
     "static/media/USC_trees.jpg": "/static/media/USC_trees.a60a99a2.jpg",
     "static/media/art.png": "/static/media/art.06de75b8.png",
     "static/media/beach_walk.jpg": "/static/media/beach_walk.e46fa719.jpg",
     "static/media/blue_lake.jpg": "/static/media/blue_lake.badda2c5.jpg",
     "static/media/campfire.jpg": "/static/media/campfire.6d382bb0.jpg",
-    "static/media/footer.css": "/static/media/cat_walking.f4394e04.png",
+    "static/media/header_footer.css": "/static/media/cat_walking.f4394e04.png",
     "static/media/china_bench.jpg": "/static/media/china_bench.cad55bed.jpg",
     "static/media/cockatiel.jpg": "/static/media/cockatiel.570f4870.jpg",
     "static/media/crystal_blue.jpg": "/static/media/crystal_blue.625100ca.jpg",
@@ -49,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
-    "static/js/2.cb1bc8b8.chunk.js",
-    "static/css/main.2413d852.chunk.css",
-    "static/js/main.2e4bbd17.chunk.js"
+    "static/js/2.f5848551.chunk.js",
+    "static/css/main.54deba93.chunk.css",
+    "static/js/main.7cac546d.chunk.js"
   ]
 }
