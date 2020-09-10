@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/art.css';
+import '../styles/general.css';
 import cockatiel from '../images/art/cockatiel.jpg'
 
 function Art() {
     return (
       <div className="art" style={{backgroundColor: '#A2D6DB'}}>
 
-        <div className="art_body">
+        <div className="body">
             <p className="title">Art</p>
       
           <div className = "art_container">

@@ -1,42 +1,14 @@
-.title {
-    font-size: 45px;
-    height: auto;
-    text-decoration: underline;
-    font-weight: 700;
-    z-index: 10;
-    margin: 32px;
-    margin-top: 48px;
-}
-
-@media screen and (max-width: 480px) {
-    .title {
-        font-size: 40px;
-    }
-}
-
-.art_body {
-    height: auto;
-    background-color: #A2D6DB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 32px;
-    padding-top: 0px;
-    position: relative;
-}
-
 .art_container {
     height: auto;
     width: 100%;
 }
+.art_container p{
+    font-size: 20px;
 
-.art_container h1 {
-    font-size: 26;
 }
 
 .art_image {
-    width: 400px;
+    width: 500px;
 }
 
 @media screen and (max-width: 480px) {

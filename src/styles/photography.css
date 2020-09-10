@@ -1,15 +1,3 @@
-.photobody {
-    height: auto;
-    background-color: #A2D6DB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 32px;
-    padding-top: 0px;
-    position: relative;
-}
-
 .album_container {
     height: auto;
     width: 100%;

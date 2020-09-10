@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/projects.css';
+import '../styles/general.css';
 import { HashLink as Link } from 'react-router-hash-link';
 // pothole
 import pothole from '../images/projects/pixil-frame-0.png';
@@ -10,7 +11,7 @@ function Projects() {
     return (
       <div className="projects">
 
-        <div className="project_body">
+        <div className="body">
             
             <p className="title">Projects</p>
             <div className="row" style={{top: '0', position: 'absolute'}}>
@@ -34,7 +35,7 @@ function Projects() {
 
             <div className="project">
                 <div className="project_card">
-                    <p className="project_name">EasyGov</p>
+                    <p className="project_name"><a className="link" href= 'https://easygov.app' target="_blank" style={{color: 'black', textDecoration: 'underline'}}>EasyGov</a></p>
                     <img src={easygov} alt="EasyGov (logo)"></img>
                 </div>
                 <div className="project_description">

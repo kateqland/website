@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/header_footer.css';
+import '../styles/general.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from "@fortawesome/free-solid-svg-icons";

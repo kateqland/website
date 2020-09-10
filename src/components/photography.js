@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/photography.css';
+import '../styles/general.css';
 import beach_walk from '../images/photography/beach_walk.jpg';
 import blue_lake from '../images/photography/blue_lake.jpg';
 import campfire from '../images/photography/campfire.jpg';
@@ -27,7 +28,7 @@ function Photography() {
     return (
       <div className="photography">
 
-        <div className="photobody">
+        <div className="body">
           <p className="title">Photography</p>
           <div className="album_container">
             {/* beach */}

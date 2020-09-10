@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/projects.css';
+import '../styles/general.css';
 import { HashLink as Link } from 'react-router-hash-link';
 // pothole
 import pothole_1 from '../images/projects/pothole(1).png';
@@ -13,7 +14,7 @@ function Projects_Photos() {
     return (
       <div className="projects">
 
-        <div className="project_body">
+        <div className="body">
             <p className="title">Project Photos</p>
             <div className="row" style={{top: '0', position: 'absolute'}}>
                 <a className="redirect" href="#Projects"><button className="redirect-button">Projects</button></a>

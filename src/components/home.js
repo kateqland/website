@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
+import '../styles/general.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import profile from '../images/me_china.jpg';
 import projects from '../images/hello_world.png';
