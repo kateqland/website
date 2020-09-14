@@ -17,10 +17,28 @@ import nova_5 from '../images/projects/nova5.png';
 import nova_6 from '../images/projects/nova6.png';
 import nova_7 from '../images/projects/nova7.png';
 
-function Projects_Photos() {
+export default class Projects_Photos extends React.Component {
+
+    expandShrink(id_name, button_id_name) {
+        var project_images = document.getElementById(id_name);
+        var button = document.getElementById(button_id_name);
+
+        if(button.textContent == "Expand")
+        {
+            button.textContent = "Shrink";
+            project_images.style.height = "30%";
+            project_images.style.opacity = '100%';
+        }
+        else {
+            button.textContent = "Expand";
+            project_images.style.height = "1px";
+            project_images.style.opacity = '0%';
+        }
+    }
+
+    render() {
     return (
       <div className="projects">
-
         <div className="body">
             <p className="title">Project Photos</p>
             <div className="row" style={{top: '0', position: 'absolute'}}>
@@ -28,10 +46,15 @@ function Projects_Photos() {
             </div>
 
             <div className="project_column" style={{marginTop:'0px'}}>
-                <div className="project_card" style={{border: 'none', borderBottom: '2px solid #A2D6DB'}}>
+                <div className="project_photo_card">
                     <p className="project_name">Holed Up</p>
+                    <div className="row" id="expand-row">
+                        <div className='redirect'>
+                            <button className="redirect-button" id="holed-up-expand" onClick={()=>{this.expandShrink("holed-up", "holed-up-expand")}} style={{marginBottom: '16px'}}>Expand</button>
+                        </div>
+                    </div>
                 </div>
-                <div className="project_images">
+                <div className="project_images" id="holed-up">
                     <img src={pothole_1} alt="home screen" className="p_image"></img>
                     <img src={pothole_2} alt="map screen" className="p_image"></img>
                     <img src={pothole_3} alt="report screen" className="p_image"></img>
@@ -41,13 +64,18 @@ function Projects_Photos() {
                 </div>
             </div>
 
-            <div className="project_column" style={{marginTop:'0px'}}>
-                <div className="project_card" style={{border: 'none', borderBottom: '2px solid #A2D6DB'}}>
+            <div className="project_column">
+                <div className="project_photo_card">
                     <p className="project_name" style={{marginBottom: '8px'}}>Nova</p>
                     <a className="link" href= 'https://youtu.be/srxU6hzMhKo' target="_blank" 
                     style={{color: 'black', textDecoration: 'underline', marginBottom: '8px'}}>Demo</a>
+                    <div className="row" id="expand-row">
+                        <div className='redirect'>
+                            <button className="redirect-button" id="nova-expand" onClick={()=>{this.expandShrink("nova", "nova-expand")}} style={{marginBottom: '40px'}}>Expand</button>
+                        </div>
+                    </div>
                 </div>
-                <div className="project_images">
+                <div className="project_images" id="nova">
                     <div className="grid_2">
                         <div className="grid-item"><img src={nova_1} alt="home screen" className="p_image_horiz"></img></div>
                         <div className="grid-item"><img src={nova_2} alt="report screen" className="p_image_horiz"></img></div>
@@ -63,6 +91,4 @@ function Projects_Photos() {
     </div>
     );
 }
-
-
-export default Projects_Photos;
+}

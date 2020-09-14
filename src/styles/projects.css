@@ -23,6 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .project_name {
@@ -42,6 +43,8 @@
     height: 100%;
     font-size: 18px;
     padding: 0px 24px;
+    display: flex;
+    flex-direction: row;
 }
 
 .project_column {
@@ -60,14 +63,48 @@
     margin-top: 32px;
 }
 
+@media screen and (max-width: 640px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .project_name {
+        font-size: 32px;
+    }
+    
+    .project_card {
+        border-right: none;
+        border-bottom: 2px solid #A2D6DB;
+    }
+    #project_photo_button {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*--------------------PROJECT PHOTOS---------------*/
+.project_photo_card {
+    height: 100%;
+    border-bottom: 2px solid #A2D6DB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
 .project_images {
-    display:flex;
+    display: flex;
     flex-direction: row;
     width: 100%;
     height: 30%;
     padding-top: 3px;
     justify-content: center;
     margin-top: 24px;
+    /*hiding*/
+    opacity: 0%;
+    height: 1px;
 }
 
 .grid_2 {
@@ -83,6 +120,10 @@
 .p_image_horiz {
     height: 150px;
     padding: 8px;
+}
+
+#expand-row {
+    position: absolute;
 }
 
 @media screen and (max-width: 810px) {
@@ -116,18 +157,9 @@
 }
 
 @media screen and (max-width: 640px) {
-    .project {
-        flex-direction: column;
-    }
-
-    .project_name {
-        font-size: 32px;
-    }
-    
     .project_images {
         flex-direction: column;
         width: 100%;
-        height: auto;
         justify-content: center;
         align-items: center;
     }
@@ -136,12 +168,26 @@
         height: auto;
     }
 
-    .project_card {
-        border-right: none;
-        border-bottom: 2px solid #A2D6DB;
+    .project_photo_card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
     }
     
     .grid_2 {
         grid-template-columns: 1fr;
+    }
+
+    #expand-row {
+        position: inherit;
+    }
+    #expand-row .redirect {
+        float: none;
+        margin: 0px;
+    }
+    #nova-expand {
+        margin-bottom: 16px !important;
     }
 }

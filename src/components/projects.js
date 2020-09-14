@@ -13,14 +13,14 @@ function Projects() {
         <div className="body">
             
             <p className="title">Projects</p>
-            <div className="row" style={{top: '0', position: 'absolute'}}>
-                <a className="redirect" href="#Projects_Photos"><button className="redirect-button">Project Photos</button></a>
-            </div>
 
             <div className="project" style={{marginTop:'0px'}}>
                 <div className="project_card">
                     <p className="project_name">Holed Up</p>
                     <img src={pothole} alt="Patch the Pothole (logo)"></img>
+                    <div className="row" style={{width: 'auto'}}>
+                        <a className="redirect"href="#Projects_Photos" style={{margin: '16px'}}><button className="redirect-button">Photos</button></a>
+                    </div>
                 </div>
                 <div className="project_description">
                     <p>
@@ -50,7 +50,10 @@ function Projects() {
             <div className="project">
                 <div className="project_card">
                     <p className="project_name">Nova</p>
-                    <img src={nova} alt="Nova (logo)" style={{marginBottom: '16px'}}></img>
+                    <img src={nova} alt="Nova (logo)"></img>
+                    <div className="row" style={{width: 'auto'}}>
+                        <a className="redirect" href="#Projects_Photos" style={{margin: '16px'}}><button className="redirect-button">Photos</button></a>
+                    </div>
                 </div>
                 <div className="project_description">
                     <p>

@@ -64,12 +64,14 @@
     float: right;
     margin: 16px;
     margin-left: auto;
+    z-index: 5;
 }
 .redirect-button{
     background-color: #4185a0;
     padding: 8px 16px;
     border-radius: 8px;
     color: white;
+    cursor: pointer;
 }
 .redirect-button:focus {
     outline: none;
