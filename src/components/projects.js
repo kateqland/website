@@ -13,6 +13,9 @@ function Projects() {
         <div className="body">
             
             <p className="title">Projects</p>
+            <div className="row" style={{top: '0', position: 'absolute'}}>
+                <a className="redirect" href="#Projects_Photos"><button className="redirect-button">Project Photos</button></a>
+            </div>
 
             <div className="project" style={{marginTop:'0px'}}>
                 <div className="project_card">
