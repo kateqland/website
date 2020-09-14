@@ -25,7 +25,7 @@ function Projects() {
                 </div>
                 <div className="project_description">
                     <p>
-                        Holed Up is an IOS app that tracks all user's inputs about potholes. The user uses Apple Maps to pinpoint the pothole; 
+                        Holed Up is an IOS app that tracks all user's inputs about potholes into Google's Firebase. The user uses Apple Maps to pinpoint the pothole; 
                         if there is already a review, the user can rate and submit another recording of that same pothole. Using a formula based on the serverity of the pothole's rating
                         and amount of submissions, an email and call will be placed to the government to get the road fixed. 
                         This was built during WomxnHacks 2020 where I won best mobile app.
