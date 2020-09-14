@@ -70,9 +70,19 @@
     margin-top: 24px;
 }
 
+.grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .p_image {
     width: 100px;
     padding: 0px 8px;
+}
+
+.p_image_horiz {
+    height: 150px;
+    padding: 8px;
 }
 
 @media screen and (max-width: 810px) {
@@ -80,6 +90,10 @@
         padding: 8px;
         height: 150px; 
         width: auto;
+    }
+    .p_image_horiz {
+        height: 100px;
+        padding: 0px 8px;
     }
 }
 
@@ -125,5 +139,9 @@
     .project_card {
         border-right: none;
         border-bottom: 2px solid #A2D6DB;
+    }
+    
+    .grid_2 {
+        grid-template-columns: 1fr;
     }
 }
