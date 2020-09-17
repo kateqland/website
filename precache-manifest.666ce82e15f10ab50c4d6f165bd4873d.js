@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c020b499b03b61a0cce2731259ab3578",
+    "revision": "565e6530f0f8d178aecc2a98b02cca79",
     "url": "/index.html"
   },
   {
-    "revision": "89c87c45897e20bb160c",
-    "url": "/static/css/main.54deba93.chunk.css"
+    "revision": "796112d3ad7524166197",
+    "url": "/static/css/main.0fa7768f.chunk.css"
   },
   {
-    "revision": "fed0c5f3757bb0c8844c",
-    "url": "/static/js/2.f5848551.chunk.js"
+    "revision": "00ea97d25d7e640abe48",
+    "url": "/static/js/2.b4fd3098.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.f5848551.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b4fd3098.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "89c87c45897e20bb160c",
-    "url": "/static/js/main.7cac546d.chunk.js"
+    "revision": "796112d3ad7524166197",
+    "url": "/static/js/main.340b5edb.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -84,12 +84,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hello_world.0af2cdd7.png"
   },
   {
+    "revision": "4335d75ff6627df32bfdd958adcbd235",
+    "url": "/static/media/holding_hands.4335d75f.png"
+  },
+  {
     "revision": "381357ca74b0903b7364642a8448b42b",
     "url": "/static/media/lake_sunset.381357ca.jpg"
   },
   {
     "revision": "e64dacec87e76b49f0faf83c10d4c00c",
     "url": "/static/media/me_china.e64dacec.jpg"
+  },
+  {
+    "revision": "175f790fc9c019ffbe7e285fad4f5840",
+    "url": "/static/media/nova1.175f790f.png"
+  },
+  {
+    "revision": "cdead9876e68bcad0cf533acd0b92cfb",
+    "url": "/static/media/nova2.cdead987.png"
+  },
+  {
+    "revision": "dc73c6918229f5d630b9cfde52b6391d",
+    "url": "/static/media/nova3.dc73c691.png"
+  },
+  {
+    "revision": "c600e0653898dc1ee86eaec65249e78c",
+    "url": "/static/media/nova4.c600e065.png"
+  },
+  {
+    "revision": "e325f40d3bbca41b05427ba6b42ab1d1",
+    "url": "/static/media/nova5.e325f40d.png"
+  },
+  {
+    "revision": "6ba1e085b1ac07380c0f410110c947c6",
+    "url": "/static/media/nova6.6ba1e085.png"
+  },
+  {
+    "revision": "fb66c11f336be74c370cdbda9e94e304",
+    "url": "/static/media/nova7.fb66c11f.png"
   },
   {
     "revision": "03e04c578be2d4f6b64178f80d2e3df1",
