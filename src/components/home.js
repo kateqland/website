@@ -46,7 +46,7 @@ function Home() {
           <div className="category-description">
             <Link to="/Projects" className="link" style={{textDecoration: 'underline'}}><h3>Projects</h3></Link>
             <p> 
-              Not only do I code during my classes, but I also tinker around with code outside class. Here are some of my projects that I have created.
+              I tinker around with code sometimes out of class or in hackathons. Here are some of my projects that I have created.
             </p>
           </div>
           <div className="photo" style={{paddingRight: '0px', paddingLeft: '32px'}}>
