@@ -15,11 +15,11 @@
 }  
   
 .link {
-    color: #DE5B6D;
+    color: #D24B52;
     text-decoration: none;
 }
 .link:hover {
-    color: #123D60;
+    color: #DB8E79;
 }
 
 .body {
@@ -68,6 +68,7 @@
 }
 .redirect-button{
     background-color: #4185a0;
+    border: none;
     padding: 8px 16px;
     border-radius: 8px;
     color: white;

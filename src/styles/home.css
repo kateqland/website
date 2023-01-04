@@ -43,7 +43,7 @@
   text-align: top;
 }
 
-/* caetgories */
+/* -----------------------CATEGORIES---------------------------- */
 #category-title {
   font-size: 18px;
 }
@@ -58,7 +58,7 @@
 .divisor {
   width: 90%;
   height: 2%;
-  border-top: 2px solid white;
+  border-top: 2px solid #4185a0;
 }
 
 .category {

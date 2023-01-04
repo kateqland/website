@@ -7,8 +7,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #fdf4ec;
-    border-bottom: 2px solid #123D60;
+    background-color: #ffffff;
+    border-bottom: 2px solid #D24B52;
 }
 
 .name {
@@ -24,7 +24,7 @@
 .hdivisor {
     width: 2px;
     height: 70%;
-    border-left: 2px solid #DE5B6D;
+    border-left: 2px solid #D24B52;
 }
 
 .tab-container {
@@ -51,10 +51,10 @@
 
 .iconLink {
     text-decoration: none;
-    color: #DE5B6D;
+    color: #D24B52;
 }
 .iconLink:hover {
-    color: #123D60;
+    color: #DB8E79;
 }
 
 @media screen and (max-width: 510px) {
@@ -72,13 +72,13 @@
 
 /*-----------------------------FOOTER---------------*/
 .footerbody {
-    background-color: #fdf4ec; 
+    background-color: #ffffff; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 8px 0px;
-    border-top: 2px solid #123D60;
+    border-top: 2px solid #D24B52;
 }
 
 @keyframes walking{
@@ -113,7 +113,7 @@
 .footerLink {
     font-size: 32px;
     text-decoration: none;
-    color: #DE5B6D;
+    color: #D24B52;
     margin: 8px;
 }
 

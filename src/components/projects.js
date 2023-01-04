@@ -37,7 +37,7 @@ function Projects() {
 
             <div className="project">
                 <div className="project_card">
-                    <p className="project_name"><a className="link" href= 'https://easygov.app' target="_blank" style={{color: 'black', textDecoration: 'underline'}}>EasyGov</a></p>
+                    <p className="project_name">EasyGov</p>
                     <img src={easygov} alt="EasyGov (logo)"></img>
                 </div>
                 <div className="project_description">
@@ -60,7 +60,7 @@ function Projects() {
                 </div>
                 <div className="project_description">
                     <p>
-                        Nova is an online service for univserity students to report accounts of sexual harassment. All reports will be automatically 
+                        Nova is an online service for university students to report accounts of sexual harassment. All reports will be automatically 
                         sent to be filed. Users can input their unique number to track their report progress. We store the information through 
                         Django's database. I built the entire frontend with JavaScript, HTML, and CSS using React.
                     </p>
