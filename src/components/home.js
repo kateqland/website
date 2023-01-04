@@ -20,7 +20,7 @@ function Home() {
           </div>
           <div className="divisor" style ={{ marginBottom: '16px'}}></div>
           <div className="intro-bottom">
-            <p style={{ margin: '0px'}}> I'm a sophomore Computer Science major at UCLA. If you would like to contact me, email me at kateqland@ucla.edu.</p>
+            <p style={{ margin: '0px'}}> I'm a senior Computer Science major at UCLA. If you would like to contact me, email me at kateqland@ucla.edu.</p>
           </div>
         </div>
       </div>
