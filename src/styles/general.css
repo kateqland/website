@@ -1,3 +1,11 @@
+/*----COLOR PALETTE----
+    dark blue           #4185A0
+    light blue          #A2D6DB
+    off white           #E8DAD5
+    dull orange pink    #DB8E79
+    hot pink            #D24B52
+*/
+
 .flex {
  display: flex;
  flex-direction: row;
